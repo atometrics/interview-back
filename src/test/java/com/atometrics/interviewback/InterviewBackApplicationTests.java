@@ -1,0 +1,13 @@
+package com.atometrics.interviewback;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class InterviewBackApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
