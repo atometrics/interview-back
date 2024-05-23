@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-public class CharacterStatisticsService {
+public class HeroStatisticsService {
 
 	private final NamedParameterJdbcTemplate jdbcTemplate;
 
-	public int countCharacters() {
+	public int countHeroes() {
 		final MapSqlParameterSource params = new MapSqlParameterSource();
-		return jdbcTemplate.queryForObject("SELECT COUNT(*) FROM interview.character", params, Integer.class);
+		return jdbcTemplate.queryForObject("SELECT COUNT(*) FROM interview.hero", params, Integer.class);
 	}
 }

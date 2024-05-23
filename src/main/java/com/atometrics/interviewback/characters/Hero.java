@@ -1,6 +1,6 @@
 package com.atometrics.interviewback.characters;
 
-public class Character {
+public class Hero {
 	private Integer id;
 
 	private String name;
