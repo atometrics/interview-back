@@ -1,4 +1,4 @@
-package com.atometrics.interviewback.characters;
+package com.atometrics.interviewback.heroes;
 
 public class Hero {
 	private Integer id;
